@@ -1,0 +1,11 @@
+.contact {
+  & + & {
+    margin-top: 15px;
+  }
+
+  &__link {
+    &.active {
+      color: gold;
+    }
+  }
+}

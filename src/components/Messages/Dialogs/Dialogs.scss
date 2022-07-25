@@ -1,0 +1,25 @@
+.dialogs {
+  padding-top: 50px;
+
+  &__item {
+    width: fit-content;
+
+    & + & {
+      margin-top: 20px;
+    }
+
+    &--right {
+      float: right;
+    }
+  }
+
+  &__name {
+    padding-left: 10px;
+  }
+
+  &__message {
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+  }
+}
